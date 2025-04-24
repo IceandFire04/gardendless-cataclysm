@@ -16,4 +16,4 @@ While the patch isn't complete yet, this repo will be updated more when I feel l
 modding tool for a while, so I plan on covering **every world** in Gardendless, and also having some custom levels that can net you premium plants for free and a small Kong-Fu World to get those plants. 
 
 I will preface here, **pull requests will most likely not get merged**. Unless it's a _really_ good custom level or something, don't count on me adding it. Also, don't spam issues. If there are bugs,
-then yes, open one. But if you can't beat a level or want to suggest balace changes, _womp womp_.
+then yes, open one. But if you can't beat a level or want to suggest balace changes, use the discussion.
