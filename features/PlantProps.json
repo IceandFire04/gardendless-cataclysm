@@ -1,0 +1,168 @@
+{
+  "objects": [
+    {
+      "aliases": ["cabbagepult"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "ThrowInterval": 1.5,
+        "ThrowIntervalAdditional": 0.05,
+        "Cooldown": 7,
+        "CooldownFrom": 3,
+        "SunCost": 150,
+        "Toughness": 300,
+        "Family": "Lobber"
+      }
+    },
+    {
+      "aliases": ["bloomerang"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "ShootInterval": 1.5,
+        "ShootIntervalAdditional": 0.15,
+        "PierceCount": 6,
+        "PlantfoodBoomerangCount": 25,
+        "Cooldown": 12,
+        "CooldownFrom": 1.5,
+        "SunCost": 300,
+        "Toughness": 300,
+        "Family": "Sharp"
+      }
+    },
+    {
+      "aliases": ["iceburg"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "FreezeDuration": 2,
+        "ChillDuration": 10,
+        "Cooldown": 10,
+        "CooldownFrom": 1,
+        "SunCost": 0,
+        "Toughness": 3.14159,
+        "Family": "Cold",
+        "ImmuneToIceblock": true
+      }
+    },
+    {
+      "aliases": ["gravebuster"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "CannotBeSheepenedByWizard": true,
+        "CannotBePushedByFootballMech": true,
+        "BustTime": 9,
+        "Cooldown": 5,
+        "CooldownFrom": 1,
+        "SunCost": 0,
+        "Toughness": 600,
+        "Family": "Slow",
+        "ImmuneToIceblock": true
+      }
+    },
+    {
+      "aliases": ["twinsunflower"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "PlantfoodTime": 6,
+        "SunValue": 150,
+        "ProduceInterval": 25.5,
+        "ProduceIntervalAdditional": 1.5,
+        "ProduceCountdownStart": 5,
+        "ProduceCountdownStartAdditional": 4,
+        "Cooldown": 20,
+        "CooldownFrom": 1,
+        "SunCost": 125,
+        "Toughness": 300,
+        "Family": "Sun"
+      }
+    },
+    {
+      "aliases": ["bonkchoy"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "Damage": 20,
+        "DamageHeavy": 60,
+        "DamagePlantfood": 40,
+        "PlantfoodHitCount": 50,
+        "ZombieDetectorWidth": 6,
+        "TombDetectorWidth": 5,
+        "AttackInterval": 0.5,
+        "Cooldown": 5,
+        "CooldownFrom": 2,
+        "SunCost": 175,
+        "Toughness": 500,
+        "Family": "Melee"
+      }
+    },
+    {
+      "aliases": ["snowpea"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "ShootInterval": 7,
+        "ShootIntervalAdditional": 1,
+        "PlantfoodPeaCount": 30,
+        "ChanceToFreeze": 1,
+        "Cooldown": 10,
+        "CooldownFrom": 0.5,
+        "SunCost": 250,
+        "Toughness": 300,
+        "Family": "Cold",
+        "ImmuneToIceblock": true
+      }
+    },
+    {
+      "aliases": ["repeater"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "ShootInterval": 1.2,
+        "ShootIntervalAdditional": 0.15,
+        "PlantfoodPeaCount": 300,
+        "Cooldown": 5,
+        "CooldownFrom": 1,
+        "SunCost": 150,
+        "Toughness": 300,
+        "Family": "Peashooter"
+      }
+    },
+    {
+      "aliases": ["kernelpult"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "ThrowInterval": 2.4,
+        "ThrowIntervalAdditional": 0.15,
+        "ChanceToButter": 0.6,
+        "Cooldown": 5,
+        "CooldownFrom": 0.5,
+        "SunCost": 100,
+        "Toughness": 200,
+        "Family": "Lobber"
+      }
+    },
+    {
+      "aliases": ["melonpult"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "ThrowInterval": 1.6,
+        "ThrowIntervalAdditional": 0.15,
+        "Cooldown": 5,
+        "CooldownFrom": 0.5,
+        "SunCost": 300,
+        "Toughness": 700,
+        "Family": "Lobber"
+      }
+    },
+    {
+      "aliases": ["dandelion"],
+      "objectclass": "PlantProperties",
+      "objdata": {
+        "ShootInterval": 1.3,
+        "ShootIntervalAdditional": 0.1,
+        "BlowRecoverTime": 20,
+        "BlowProjectileCount": 20,
+        "Cooldown": 15,
+        "CooldownFrom": 0.75,
+        "SunCost": 200,
+        "Toughness": 200,
+        "Family": "Peashooter"
+      }
+    }
+  ]
+}
