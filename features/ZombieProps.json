@@ -1,0 +1,304 @@
+{
+  "objects": [
+    {
+      "aliases": ["mummy"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.4,
+        "EatDPS": 200,
+        "Toughness": 190
+      }
+    },
+    {
+      "aliases": ["mummy_armor1"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.14,
+        "EatDPS": 90,
+        "Toughness": 190,
+        "StartingArmors": ["egypt_armor1", "egypt_armor1", "egypt_armor1"]
+      }
+    },
+    {
+      "aliases": ["ra"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "MaxAbsorbValue": 2000,
+        "WalkSPS": 0.05,
+        "EatDPS": 10,
+        "Toughness": 190,
+        "StartingArmors": ["egypt_armor4"],
+        "CannotCarryPlantfoodsInWaves": true
+      }
+    },
+    {
+      "aliases": ["mummy_armor2"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": true,
+        "WalkSPS": 0.7,
+        "EatDPS": 10,
+        "Toughness": 190,
+        "StartingArmors": ["egypt_armor2"]
+      }
+    },
+    {
+      "aliases": ["mummy_armor4"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 150,
+        "Toughness": 190,
+        "CannotCarryPlantfoodsInWaves": true,
+        "StartingArmors": ["egypt_armor1", "egypt_armor2", "egypt_armor4"]
+      }
+    },
+    {
+      "aliases": ["mummy_flag"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "CannotCarryPlantfoodsInWaves": true,
+        "WalkSPS": 0.5,
+        "EatDPS": 300,
+        "Toughness": 190,
+        "StartingArmors": ["egypt_armor1"]
+      }
+    },
+    {
+      "aliases": ["camel_onehump"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy_armor1",
+        "TeamMemberCount": [4],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_segment"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy_armor2",
+        "TeamMemberCount": [0],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_threehump"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy_armor2",
+        "TeamMemberCount": [7],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_manyhump"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.12,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy_armor4",
+        "TeamMemberCount": [7, 8, 9],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_onehump_touch"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy",
+        "TeamMemberCount": [5],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_segment_touch"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy",
+        "TeamMemberCount": [0],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_threehump_touch"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy",
+        "TeamMemberCount": [7],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["camel_manyhump_touch"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.3,
+        "EatDPS": 100,
+        "Toughness": 250,
+        "ZombieInside": "mummy",
+        "TeamMemberCount": [7, 8, 9],
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["egypt_gargantuar"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Gargantuar",
+        "CannotBeDraggedByTangleKelp": true,
+        "CannotBeTossedByCitron": true,
+        "CannotBeSwallowedByChomper": true,
+        "LivesInDeepWater": true,
+        "SmashDamage": 1000,
+        "CannotCarryPlantfoodsInWaves": true,
+        "EatDPS": 100,
+        "Toughness": 9600,
+        "WalkSPS": 0.2,
+        "NormalDeathWhenMowed": true,
+        "ChanceToPharaoh": 0.75
+      }
+    },
+    {
+      "aliases": ["egypt_imp"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "IgnoredInWaves": true,
+        "WalkSPS": 0.7,
+        "EatDPS": 500,
+        "Toughness": 95
+      }
+    },
+    {
+      "aliases": ["explorer"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 1,
+        "EatDPS": 100,
+        "FireDPS": 100,
+        "Toughness": 100
+      }
+    },
+    {
+      "aliases": ["tomb_raiser"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "ThrowTimePerGroup": 1,
+        "TimeBetweenGroups": 3,
+        "TimeBetweenGroupsAdditional": 0.5,
+        "WalkSPS": 0.1,
+        "EatDPS": 100,
+        "Toughness": 380,
+        "StartingArmors": ["egypt_armor4"]
+      }
+    },
+    {
+      "aliases": ["pharaoh"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "ProtectsInside": true,
+        "ZombieInside": "pharaoh_inner",
+        "WalkSPS": 0.2,
+        "EatDPS": 75,
+        "Toughness": 2400,
+        "DamageExtends": false,
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["pharaoh_inner"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.75,
+        "EatDPS": 200,
+        "Toughness": 170
+      }
+    },
+    {
+      "aliases": ["pharaoh_weak"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "ZombieInside": "pharaoh_inner",
+        "WalkSPS": 1,
+        "EatDPS": 50,
+        "Toughness": 300,
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["zombossmech_egypt"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Zomboss",
+        "CannotBeDraggedByTangleKelp": true,
+        "CannotBeTossedByCitron": true,
+        "CannotBeDetectedBySapfling": true,
+        "CannotBeSwallowedByChomper": true,
+        "ChiliStunDurationMult": 0,
+        "CannotCarryPlantfoodsInWaves": true,
+        "FoeEatDamageReflectPct": 1,
+        "LivesInDeepWater": true,
+        "WalkSPS": 0.185,
+        "EatDPS": 100,
+        "Toughness": 1000,
+        "ImmuneToGarlic": true
+      }
+    },
+    {
+      "aliases": ["explorer_veteran"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.7,
+        "EatDPS": 150,
+        "FireDPS": 1000,
+        "Toughness": 325
+      }
+    }
+  ]
+}
