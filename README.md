@@ -18,5 +18,5 @@ modding tool for a while, so my eventual plans include covering **every world** 
 I will preface here, **pull requests will most likely not get merged**. Unless it's a _really_ good custom level or something, don't count on me adding it. Also, don't spam issues. If there are bugs with the patch and not Gardendless itself,
 then yes, open one. But if you can't beat a level or want to suggest balance changes, use the discussion.
 
-## Nightly
-The `nightly` branch is where I just host indev versions of the patch. This branch exists so when I finish an update I can just push to `main` super easily Feel free to try it out though!
+## Betas
+The actual repository holds the latest indev content. If you want to play betas, download the source code instead of the release. **Betas are likely to be unfinished or unbalanced.** You should still give them a whirl though!
