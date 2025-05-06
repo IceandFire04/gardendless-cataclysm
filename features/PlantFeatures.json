@@ -1,0 +1,55 @@
+{
+    "CardBackgroundsToUse": [
+        "frontyard",
+        "kongfu",
+        "default",
+        "market",
+        "epic"
+    ],
+    "PLANTS": [
+        {
+            "CODENAME": "peashooter",
+            "OBTAINWORLD": "frontyard"
+        },
+        {
+            "CODENAME": "cabbagepult",
+            "OBTAINWORLD": "frontyard"
+        },
+        {
+            "CODENAME": "bloomerang",
+            "OBTAINWORLD": "default"
+        },
+        {
+            "CODENAME": "iceburg",
+            "OBTAINWORLD": "kongfu"
+        },
+        {
+            "CODENAME": "twinsunflower",
+            "OBTAINWORLD": "default"
+        },
+        {
+            "CODENAME": "bonkchoy",
+            "OBTAINWORLD": "kongfu"
+        },
+        {
+            "CODENAME": "snowpea",
+            "OBTAINWORLD": "epic"
+        },
+        {
+            "CODENAME": "repeater",
+            "OBTAINWORLD": "kongfu"
+        },
+        {
+            "CODENAME": "kernelpult",
+            "OBTAINWORLD": "default"
+        },
+        {
+            "CODENAME": "melonpult",
+            "OBTAINWORLD": "market"
+        },
+        {
+            "CODENAME": "dandelion",
+            "OBTAINWORLD": "default"
+        }
+    ]
+}
