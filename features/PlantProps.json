@@ -69,8 +69,8 @@
         "ProduceCountdownStartAdditional": 4,
         "Cooldown": 20,
         "CooldownFrom": 1,
-        "SunCost": 125,
-        "Toughness": 300,
+        "SunCost": 500,
+        "Toughness": 600,
         "Family": "Sun"
       }
     },
@@ -126,12 +126,12 @@
       "aliases": ["kernelpult"],
       "objectclass": "PlantProperties",
       "objdata": {
-        "ThrowInterval": 2.4,
+        "ThrowInterval": 1.5,
         "ThrowIntervalAdditional": 0.15,
-        "ChanceToButter": 0.6,
-        "Cooldown": 5,
+        "ChanceToButter": 0.25,
+        "Cooldown": 60,
         "CooldownFrom": 0.5,
-        "SunCost": 100,
+        "SunCost": 200,
         "Toughness": 200,
         "Family": "Lobber"
       }
@@ -162,6 +162,55 @@
         "SunCost": 200,
         "Toughness": 200,
         "Family": "Peashooter"
+      }
+    },
+    {
+      "aliases": ["snapdragon"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "AttackInterval": 1.2,
+        "AttackIntervalAdditional": 0.15,
+        "Damage": 40,
+        "DamagePlantfood": 3200,
+        "Cooldown": 50,
+        "CooldownFrom": 1,
+        "SunCost": 400,
+        "Toughness": 1500,
+        "Family": "Fire",
+        "ImmuneToIceblock": true
+      }
+    },
+    {
+      "aliases": ["cherry_bomb"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "CannotBeSheepenedByWizard": true,
+        "Damage": 1800,
+        "Cooldown": 25,
+        "CooldownFrom": 1,
+        "SunCost": 200,
+        "Toughness": 300,
+        "Family": "Explosive",
+        "ImmuneToBoomBox": true,
+        "ImmuneToIceblock": true
+      }
+    },
+    {
+      "aliases": ["spikeweed"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "Damage": 10,
+        "ImmuneToBoomBox": true,
+        "AttackInterval": 0.3,
+        "PlantfoodDuration": 10,
+        "PlantfoodDPS": 400,
+        "PlantfoodSideDPS": 40,
+        "PlantfoodDragSPS": 3,
+        "Cooldown": 20,
+        "CooldownFrom": 3,
+        "SunCost": 100,
+        "Toughness": 300,
+        "Family": "Sharp"
       }
     }
   ]

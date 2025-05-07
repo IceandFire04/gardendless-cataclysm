@@ -299,6 +299,117 @@
         "FireDPS": 1000,
         "Toughness": 325
       }
+    },
+    {
+      "aliases": ["pirate"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.13,
+        "EatDPS": 50,
+        "Toughness": 400
+      }
+    },
+    {
+      "aliases": ["pirate_armor1"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.11,
+        "EatDPS": 50,
+        "Toughness": 600,
+        "StartingArmors": ["pirate_armor1", "pirate_armor1", "pirate_armor1"]
+      }
+    },
+    {
+      "aliases": ["pirate_armor2"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.09,
+        "EatDPS": 50,
+        "Toughness": 800,
+        "StartingArmors": ["pirate_armor2", "pirate_armor2"]
+      }
+    },
+    {
+      "aliases": ["pirate_flag"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "CannotCarryPlantfoodsInWaves": true,
+        "WalkSPS": 0.24,
+        "EatDPS": 600,
+        "Toughness": 300,
+        "StartingArmors": ["pirate_armor2"]
+      }
+    },
+    {
+      "aliases": ["swashbuckler"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.04,
+        "EatDPS": 200,
+        "Toughness": 250,
+        "StartingArmors": ["pirate_armor2"]
+      }
+    },
+    {
+      "aliases": ["seagull"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ChooseToSpawnOnNonDeckRows": true,
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.5,
+        "EatDPS": 300,
+        "Toughness": 350
+      }
+    },
+    {
+      "aliases": ["barrelroller"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "WalkSPS": 0.15,
+        "EatDPS": 100,
+        "Toughness": 400,
+        "NormalDeathWhenMowed": true
+      }
+    },
+    {
+      "aliases": ["pirate_barrel"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "CannotBeDetectedBySapfling": true,
+        "CannotBeSwallowedByChomper": true,
+        "ChiliStunDurationMult": 0,
+        "CannotCarryPlantfoodsInWaves": true,
+        "WalkSPS": 0.185,
+        "EatDPS": 100,
+        "Toughness": 3000,
+        "NormalDeathWhenMowed": true,
+        "ImmuneToGarlic": true
+      }
+    },
+    {
+      "aliases": ["pirate_imp"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "IgnoredInWaves": true,
+        "WalkSPS": 0.1,
+        "EatDPS": 1,
+        "Toughness": 1000,
+        "StartingArmors": ["pirate_armor4"]
+      }
     }
   ]
 }

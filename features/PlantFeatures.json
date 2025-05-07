@@ -12,6 +12,22 @@
             "OBTAINWORLD": "frontyard"
         },
         {
+            "CODENAME": "sunflower",
+            "OBTAINWORLD": "frontyard"
+        },
+        {
+            "CODENAME": "wallnut",
+            "OBTAINWORLD": "frontyard"
+        },
+        {
+            "CODENAME": "potatomine",
+            "OBTAINWORLD": "frontyard"
+        },
+        {
+            "CODENAME": "gravebuster",
+            "OBTAINWORLD": "frontyard"
+        },
+        {
             "CODENAME": "cabbagepult",
             "OBTAINWORLD": "frontyard"
         },
@@ -50,6 +66,18 @@
         {
             "CODENAME": "dandelion",
             "OBTAINWORLD": "default"
+        },
+        {
+            "CODENAME": "snapdragon",
+            "OBTAINWORLD": "kongfu"
+        },
+        {
+            "CODENAME": "cherry_bomb",
+            "OBTAINWORLD": "market"
+        },
+        {
+            "CODENAME": "spikeweed",
+            "OBTAINWORLD": "kongfu"
         }
     ]
 }
