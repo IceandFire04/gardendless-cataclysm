@@ -1,0 +1,503 @@
+{
+  "#comment": "For those curious, this is a special level for my Mom's Birthday!!",
+  "#tip": "If you plan on trying this yourself, you'll have to buff Bloomerang to be MUCH faster.",
+  "#zombies": "pirate, pirate_armor1, pirate_armor2, pirate_armor4, swashbuckler, pirate_barrel, cannon, explorer",
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "StartingSun": 50,
+        "Description": "A Very Special Level",
+        "FirstRewardParam": "moneybag",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "ResourceGroupNames": [
+          "DelayLoad_Background_Beach",
+          "DelayLoad_Background_Beach_Compressed",
+          "Tombstone_Dark_Special",
+          "Tombstone_Dark_Effects"
+        ],
+        "Modules": [
+          "RTID(PirateMowers@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(IPP@CurrentLevel)",
+          "RTID(Planks@CurrentLevel)",
+          "RTID(RandomSpawner1@CurrentLevel)",
+          "RTID(Escalation@CurrentLevel)",
+          "RTID(NewWaves@CurrentLevel)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(DefaultZombieWinCondition@LevelModules)"
+        ],
+        "Name": "Pirate Sneeze - Day 12",
+        "StageModule": "RTID(PirateStage@LevelModules)",
+        "MusicType": "MiniGame_A"
+      }
+    },
+    {
+      "aliases": ["IPP"],
+      "objclass": "InitialPlantProperties",
+      "objdata": {
+        "InitialPlantPlacements": [
+          { "GridX": 0, "GridY": 0, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 1, "GridY": 0, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 2, "GridY": 0, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 3, "GridY": 0, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 4, "GridY": 0, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 0, "GridY": 1, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 1, "GridY": 1, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 2, "GridY": 1, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 3, "GridY": 1, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 4, "GridY": 1, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 0, "GridY": 2, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 1, "GridY": 2, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 2, "GridY": 2, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 3, "GridY": 2, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 4, "GridY": 2, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 0, "GridY": 3, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 1, "GridY": 3, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 2, "GridY": 3, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 3, "GridY": 3, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 4, "GridY": 3, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 0, "GridY": 4, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 1, "GridY": 4, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 2, "GridY": 4, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 3, "GridY": 4, "Level": -1, "TypeName": "bloomerang" },
+          { "GridX": 4, "GridY": 4, "Level": -1, "TypeName": "bloomerang" }
+        ]
+      }
+    },
+    {
+      "aliases": ["Planks"],
+      "objclass": "PiratePlankProperties",
+      "objdata": {
+        "PlankRows": [0, 1, 2, 3, 4]
+      }
+    },
+    {
+      "aliases": ["RandomSpawner1"],
+      "objclass": "SimpleZombieSpawnerProperties",
+      "objdata": {
+        "Stages": [
+          {
+            "Types": [{ "ZombieType": "pirate" }],
+            "SpawnDelay": 5
+          }
+        ]
+      }
+    },
+    {
+      "aliases": ["Escalation"],
+      "objclass": "LevelEscalationModuleProperties",
+      "objdata": {
+        "FlagCount": 0,
+        "WavesPerFlag": 15,
+        "PlantfoodToSpawnCount": 0,
+        "StartingPoints": 0,
+        "PointIncrementPerWave": 0,
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)",
+        "ZombiePool": ["RTID(tutorial@ZombieTypes)"]
+      }
+    },
+    {
+      "aliases": ["NewWaves"],
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      }
+    },
+    {
+      "aliases": ["WaveManager"],
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 16,
+        "WaveCount": 15,
+        "SuppressFlagZombie": true,
+        "Waves": [
+          ["RTID(GridSpawn2@CurrentLevel)"],
+          ["RTID(GridSpawn3@CurrentLevel)"],
+          ["RTID(GridSpawn4@CurrentLevel)"],
+          ["RTID(GridSpawn5@CurrentLevel)"],
+          ["RTID(GridSpawn6@CurrentLevel)"],
+          ["RTID(GridSpawn7@CurrentLevel)"],
+          ["RTID(GridSpawn8@CurrentLevel)"],
+          ["RTID(GridSpawn9@CurrentLevel)"],
+          ["RTID(GridSpawn10@CurrentLevel)"],
+          ["RTID(GridSpawn11@CurrentLevel)"],
+          ["RTID(GridSpawn12@CurrentLevel)"],
+          ["RTID(GridSpawn13@CurrentLevel)"],
+          ["RTID(GridSpawn6@CurrentLevel)"],
+          ["RTID(Wave14@CurrentLevel)"]
+        ]
+      }
+    },
+    {
+      "aliases": ["Wave14"],
+      "objclass": "SpawnZombiesJitteredWaveActionProps",
+      "objdata": {
+        "AdditionalPlantfood": 0,
+        "Zombies": [
+          { "Row": "1", "Type": "RTID(pirate_armor2@ZombieTypes)" },
+          { "Row": "2", "Type": "RTID(pirate_armor1@ZombieTypes)" },
+          { "Row": "3", "Type": "RTID(pirate_armor4@ZombieTypes)" },
+          { "Row": "4", "Type": "RTID(pirate_armor1@ZombieTypes)" },
+          { "Row": "5", "Type": "RTID(pirate_armor1@ZombieTypes)" },
+          { "Row": "1", "Type": "RTID(pirate@ZombieTypes)" },
+          { "Row": "2", "Type": "RTID(swashbuckler@ZombieTypes)" },
+          { "Row": "3", "Type": "RTID(swashbuckler@ZombieTypes)" },
+          { "Row": "4", "Type": "RTID(pirate@ZombieTypes)" },
+          { "Row": "5", "Type": "RTID(swashbuckler@ZombieTypes)" },
+          { "Row": "1", "Type": "RTID(pirate_barrel@ZombieTypes)" },
+          { "Row": "2", "Type": "RTID(cannon@ZombieTypes)" },
+          { "Row": "3", "Type": "RTID(cannon@ZombieTypes)" },
+          { "Row": "4", "Type": "RTID(pirate_barrel@ZombieTypes)" },
+          { "Row": "5", "Type": "RTID(pirate_barrel@ZombieTypes)" },
+          { "Row": "1", "Type": "RTID(cannon@ZombieTypes)" },
+          { "Row": "2", "Type": "RTID(pirate_armor1@ZombieTypes)" },
+          { "Row": "3", "Type": "RTID(pirate_armor1@ZombieTypes)" },
+          { "Row": "4", "Type": "RTID(cannon@ZombieTypes)" },
+          { "Row": "5", "Type": "RTID(cannon@ZombieTypes)" }
+        ]
+      }
+    },
+    {
+      "aliases": ["GridSpawn2"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 8, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 8, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 8, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn3"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 8, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 8, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn4"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 6, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn5"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 6, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn6"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 8, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 7, "mY": 3 },
+          { "mX": 7, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn7"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 7, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn8"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 8, "mY": 0 },
+          { "mX": 7, "mY": 1 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 7, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 7, "mY": 4 },
+          { "mX": 8, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn9"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 8, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn10"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 8, "mY": 0 },
+          { "mX": 7, "mY": 1 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 7, "mY": 3 },
+          { "mX": 7, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn11"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 8, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 8, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 8, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn12"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 8, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 7, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn13"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [
+          { "Count": 99, "Type": "RTID(gravestone_pirate@GridItemTypes)" }
+        ],
+        "SpawnPositionsPool": [
+          { "mX": 7, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 6, "mY": 2 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 8, "mY": 2 },
+          { "mX": 6, "mY": 3 },
+          { "mX": 8, "mY": 3 },
+          { "mX": 6, "mY": 4 },
+          { "mX": 8, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": ["GridItemGravestone"]
+      }
+    },
+    {
+      "aliases": ["GridSpawn14"],
+      "objclass": "SpawnGravestonesWaveActionProps",
+      "objdata": {
+        "GravestonePool": [],
+        "SpawnPositionsPool": [
+          { "mX": 6, "mY": 0 },
+          { "mX": 8, "mY": 0 },
+          { "mX": 6, "mY": 1 },
+          { "mX": 8, "mY": 1 },
+          { "mX": 7, "mY": 2 },
+          { "mX": 7, "mY": 3 },
+          { "mX": 7, "mY": 4 }
+        ],
+        "SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+        "SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+        "DisplacePlants": true,
+        "RandomPlacement": true,
+        "ShakeScreen": false,
+        "GridClassesToDestroy": []
+      }
+    },
+    {}
+  ],
+  "version": 1
+}

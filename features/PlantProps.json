@@ -1,6 +1,26 @@
 {
   "objects": [
     {
+      "aliases": ["peashooter"],
+      "objclass": "PlantProperties",
+      "objdata": { "Family": "None" }
+    },
+    {
+      "aliases": ["sunflower"],
+      "objclass": "PlantProperties",
+      "objdata": { "Family": "None" }
+    },
+    {
+      "aliases": ["wallnut"],
+      "objclass": "PlantProperties",
+      "objdata": { "Family": "None" }
+    },
+    {
+      "aliases": ["potatomine"],
+      "objclass": "PlantProperties",
+      "objdata": { "Family": "None" }
+    },
+    {
       "aliases": ["cabbagepult"],
       "objclass": "PlantProperties",
       "objdata": {
@@ -10,7 +30,7 @@
         "CooldownFrom": 3,
         "SunCost": 150,
         "Toughness": 300,
-        "Family": "Lobber"
+        "Family": "None"
       }
     },
     {
@@ -25,7 +45,7 @@
         "CooldownFrom": 1.5,
         "SunCost": 300,
         "Toughness": 300,
-        "Family": "Sharp"
+        "Family": "None"
       }
     },
     {
@@ -38,7 +58,7 @@
         "CooldownFrom": 1,
         "SunCost": 0,
         "Toughness": 3.14159,
-        "Family": "Cold",
+        "Family": "None",
         "ImmuneToIceblock": true
       }
     },
@@ -53,7 +73,7 @@
         "CooldownFrom": 1,
         "SunCost": 0,
         "Toughness": 600,
-        "Family": "Slow",
+        "Family": "None",
         "ImmuneToIceblock": true
       }
     },
@@ -71,7 +91,7 @@
         "CooldownFrom": 1,
         "SunCost": 500,
         "Toughness": 600,
-        "Family": "Sun"
+        "Family": "None"
       }
     },
     {
@@ -89,7 +109,7 @@
         "CooldownFrom": 2,
         "SunCost": 175,
         "Toughness": 500,
-        "Family": "Melee"
+        "Family": "None"
       }
     },
     {
@@ -104,7 +124,7 @@
         "CooldownFrom": 0.5,
         "SunCost": 250,
         "Toughness": 300,
-        "Family": "Cold",
+        "Family": "None",
         "ImmuneToIceblock": true
       }
     },
@@ -119,7 +139,7 @@
         "CooldownFrom": 1,
         "SunCost": 150,
         "Toughness": 300,
-        "Family": "Peashooter"
+        "Family": "None"
       }
     },
     {
@@ -133,7 +153,7 @@
         "CooldownFrom": 0.5,
         "SunCost": 200,
         "Toughness": 200,
-        "Family": "Lobber"
+        "Family": "None"
       }
     },
     {
@@ -146,7 +166,7 @@
         "CooldownFrom": 0.5,
         "SunCost": 300,
         "Toughness": 700,
-        "Family": "Lobber"
+        "Family": "None"
       }
     },
     {
@@ -161,7 +181,7 @@
         "CooldownFrom": 0.75,
         "SunCost": 200,
         "Toughness": 200,
-        "Family": "Peashooter"
+        "Family": "None"
       }
     },
     {
@@ -174,9 +194,9 @@
         "DamagePlantfood": 3200,
         "Cooldown": 50,
         "CooldownFrom": 1,
-        "SunCost": 400,
+        "SunCost": 300,
         "Toughness": 1500,
-        "Family": "Fire",
+        "Family": "None",
         "ImmuneToIceblock": true
       }
     },
@@ -190,7 +210,7 @@
         "CooldownFrom": 1,
         "SunCost": 200,
         "Toughness": 300,
-        "Family": "Explosive",
+        "Family": "None",
         "ImmuneToBoomBox": true,
         "ImmuneToIceblock": true
       }
@@ -210,7 +230,47 @@
         "CooldownFrom": 3,
         "SunCost": 100,
         "Toughness": 300,
-        "Family": "Sharp"
+        "Family": "None"
+      }
+    },
+    {
+      "aliases": ["springbean"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "KnockbackDistance": 3,
+        "RestTime": 2,
+        "Cooldown": 30,
+        "CooldownFrom": 0.2,
+        "SunCost": 325,
+        "Toughness": 500,
+        "Family": "None"
+      }
+    },
+    {
+      "aliases": ["coconutcannon"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "RestTime": 6,
+        "Cooldown": 20,
+        "CooldownFrom": 1,
+        "SunCost": 425,
+        "Toughness": 300,
+        "Family": "None",
+        "ImmuneToIceblock": true
+      }
+    },
+    {
+      "aliases": ["threepeater"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "ShootInterval": 0.9,
+        "ShootIntervalAdditional": 0.05,
+        "PlantfoodPeaCount": 90,
+        "Cooldown": 15,
+        "CooldownFrom": 1,
+        "SunCost": 225,
+        "Toughness": 300,
+        "Family": "None"
       }
     }
   ]

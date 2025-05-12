@@ -410,6 +410,60 @@
         "Toughness": 1000,
         "StartingArmors": ["pirate_armor4"]
       }
+    },
+    {
+      "aliases": ["pirate_captain"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "EatDPS": 100,
+        "Toughness": 500,
+        "WalkSPS": 0.15,
+        "ParrotCooldown": 0,
+        "ParrotRetryCooldown": 10,
+        "StartingArmors": ["pirate_armor1"]
+      }
+    },
+    {
+      "aliases": ["pirate_captain_parrot"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "CannotBeTossedByCitron": false,
+        "CanBeEasilySwallowedByChomper": true,
+        "CannotCarryPlantfoodsInWaves": true,
+        "WalkSPS": 5,
+        "EatDPS": 100,
+        "Toughness": 100,
+        "NormalDeathWhenMowed": true,
+        "FlyingSpeed": 5,
+        "ImmuneToGarlic": true
+      }
+    },
+    {
+      "aliases": ["cannon"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ChooseToSpawnOnNonDeckRows": true,
+        "CannotBeTossedByCitron": true,
+        "CannotBeSwallowedByChomper": true,
+        "WalkSPS": 0.185,
+        "EatDPS": 100,
+        "Toughness": 1000,
+        "NormalDeathWhenMowed": true,
+        "TimeBefore": 1,
+        "TimeBeforeAdditional": 1,
+        "ShootInterval": 2,
+        "ShootIntervalAdditional": 0.5,
+        "MaxImpCount": 32767,
+        "MaxImpCountAdditional": 0,
+        "ShootColumns": [5, 4, 3],
+        "ExplodeColumns": [5, 4, 3, 2, 1, 0],
+        "ExplodeImpCount": 10,
+        "ExplodeImpCountAdditional": 4,
+        "IgnoredByThymeWarp": true,
+        "ImmuneToGarlic": true,
+        "ChillInsteadOfFreeze": true
+      }
     }
   ]
 }

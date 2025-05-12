@@ -1,0 +1,263 @@
+{
+  "#comment": "Paradox PS-15 | ELM: Ver-10.2 [VNL v11.5]",
+  "#zombies": "tutorial, tutorial_armor1, tutorial_armor2",
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "StartingSun": 50,
+        "Description": "{PLAYER}'s downward spiral",
+        "FirstRewardParam": "moneybag",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "ResourceGroupNames": [
+          "DelayLoad_Background_Beach",
+          "DelayLoad_Background_Beach_Compressed",
+          "Tombstone_Dark_Special",
+          "Tombstone_Dark_Effects"
+        ],
+        "Modules": [
+          "RTID(FrontLawnMowers@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(GI@CurrentLevel)",
+          "RTID(SeedBank@CurrentLevel)",
+          "RTID(DefaultSunDropper@LevelModules)",
+          "RTID(Escalation@CurrentLevel)",
+          "RTID(NewWaves@CurrentLevel)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(DefaultZombieWinCondition@LevelModules)"
+        ],
+        "Name": "Paradox PS-15",
+        "StageModule": "RTID(ArenaStage@LevelModules)"
+      }
+    },
+    {
+      "aliases": ["SeedBank"],
+      "objclass": "SeedBankProperties",
+      "objdata": {
+        "PresetPlantList": [],
+        "PlantIncludeList": [
+          "peashooter",
+          "sunflower",
+          "wallnut",
+          "potatomine",
+          "cabbagepult",
+          "bloomerang",
+          "iceburg",
+          "gravebuster",
+          "bonkchoy",
+          "repeater",
+          "twinsunflower",
+          "snowpea",
+          "dandelion",
+          "pvine",
+          "kernelpult",
+          "snapdragon",
+          "spikeweed",
+          "spikerock",
+          "springbean",
+          "threepeater",
+          "coconutcannon",
+          "cherry_bomb",
+          "powerlily",
+          "escaperoot",
+          "buttercup",
+          "splitpea",
+          "chilibean",
+          "lightningreed",
+          "tallnut",
+          "peapod",
+          "melonpult",
+          "wintermelon",
+          "squash",
+          "jalapeno",
+          "imitater",
+          "electricpeashooter",
+          "sapfling",
+          "electriccurrant",
+          "marigold",
+          "marigold_red",
+          "marigold_orange",
+          "marigold_yellow",
+          "marigold_green",
+          "marigold_blue",
+          "marigold_pink",
+          "marigold_purple",
+          "turnip",
+          "peach",
+          "laser_bean",
+          "blover",
+          "empea",
+          "citron",
+          "holonut",
+          "magnifyinggrass",
+          "powerplant_alpha",
+          "powerplant_beta",
+          "powerplant_gamma",
+          "powerplant_delta",
+          "powerplant_epsilon",
+          "starfruit",
+          "shootingstarfruit",
+          "applemortar",
+          "solartomato",
+          "sunshroom",
+          "puffshroom",
+          "fumeshroom",
+          "sunbean",
+          "magnetshroom",
+          "scaredyshroom",
+          "peanut",
+          "hypnoshroom",
+          "plantern",
+          "vamporcini",
+          "glaciershroom",
+          "doomshroom",
+          "zombiepotion_speed",
+          "zombiepotion_toughness",
+          "zombiepotion_invisibility",
+          "lilypad",
+          "tanglekelp",
+          "bowlingbulb",
+          "guacodile",
+          "banana",
+          "seashroom",
+          "chomper",
+          "homingthistle",
+          "missiletoe",
+          "ghostpepper",
+          "parsnip",
+          "tool_projectile_bowlingbulb1",
+          "tool_projectile_bowlingbulb2",
+          "tool_projectile_bowlingbulb3",
+          "tool_projectile_bowlingbulb_explode",
+          "tool_projectile_bowlingbulb_iceburg",
+          "tool_projectile_bowling_wallnut",
+          "tool_projectile_bowling_explodeonut",
+          "tool_projectile_bowling_holonut",
+          "tool_projectile_bowling_primalwallnut",
+          "tool_projectile_bowling_tallnut",
+          "hotpotato",
+          "pepperpult",
+          "chardguard",
+          "stunion",
+          "xshot",
+          "firepeashooter",
+          "hurrikale",
+          "jackolantern",
+          "sweetpotato",
+          "gatling",
+          "megagatling",
+          "torchwood",
+          "redstinger",
+          "akee",
+          "endurian",
+          "stallia",
+          "goldleaf",
+          "lavaguava",
+          "toadstool",
+          "strawburst",
+          "skyshooter",
+          "moonbean",
+          "floawerPot",
+          "phatbeet",
+          "celerystalker",
+          "thymewarp",
+          "garlic",
+          "sporeshroom",
+          "intensivecarrot",
+          "cactus",
+          "electricblueberry",
+          "primalpeashooter",
+          "primalwallnut",
+          "primalsunflower",
+          "primalpotatomine",
+          "grapeshot",
+          "coldsnapdragon",
+          "explodeonut",
+          "meteorflower",
+          "moonflower",
+          "shadowshroom",
+          "pumpkin",
+          "gloomvine",
+          "gloomshroom",
+          "dragonbruit",
+          "dragonbabybruit",
+          "umbrellaleaf",
+          "cranjelly"
+        ],
+        "SelectionMethod": "chooser"
+      }
+    },
+    {
+      "aliases": ["GI"],
+      "objclass": "InitialGridItemProperties",
+      "objdata": {
+        "InitialGridItemPlacements": [
+          { "GridX": 4, "GridY": 1, "TypeName": "shallowpuddle" },
+          { "GridX": 4, "GridY": 2, "TypeName": "potholepuddle" }
+        ]
+      }
+    },
+    {
+      "aliases": ["Escalation"],
+      "objclass": "LevelEscalationModuleProperties",
+      "objdata": {
+        "FlagCount": 0,
+        "WavesPerFlag": 8,
+        "PlantfoodToSpawnCount": 0,
+        "StartingPoints": 0,
+        "PointIncrementPerWave": 0,
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)",
+        "ZombiePool": ["RTID(tutorial@ZombieTypes)"]
+      }
+    },
+    {
+      "aliases": ["NewWaves"],
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {}
+    },
+    {
+      "aliases": ["WaveManager"],
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 8,
+        "WaveCount": 3,
+        "SuppressFlagZombie": false,
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"]
+        ]
+      }
+    },
+    {
+      "aliases": ["Wave1"],
+      "objclass": "SpawnZombiesJitteredWaveActionProps",
+      "objdata": {
+        "AdditionalPlantfood": 0,
+        "Zombies": [{ "Row": "2", "Type": "RTID(tutorial@ZombieTypes)" }]
+      }
+    },
+
+    {
+      "aliases": ["Wave2"],
+      "objclass": "SpawnZombiesJitteredWaveActionProps",
+      "objdata": {
+        "AdditionalPlantfood": 0,
+        "Zombies": [{ "Row": "4", "Type": "RTID(tutorial_armor1@ZombieTypes)" }]
+      }
+    },
+
+    {
+      "aliases": ["Wave3"],
+      "objclass": "SpawnZombiesJitteredWaveActionProps",
+      "objdata": {
+        "AdditionalPlantfood": 0,
+        "Zombies": [{ "Row": "3", "Type": "RTID(tutorial_armor2@ZombieTypes)" }]
+      }
+    },
+    {}
+  ],
+  "version": 1
+}
