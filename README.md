@@ -1,6 +1,6 @@
 # ![IceandFire's Ultra Violence](https://raw.githubusercontent.com/IceandFire04/gardendless-ultra-violence/refs/heads/main/header.png)
 
-A patch for [PvZ2: Gardendless](https://pvzge.com/en/) that aims to make the game harder and make every plant and zombie unique in their own way. Currently supports Gardendless **0.3.0**.
+A patch for [PvZ2: Gardendless](https://pvzge.com/en/) that aims to make the game harder and make every plant and zombie unique in their own way. Currently supports Gardendless **0.3.X**.
 
 ## Why did I make this?
 The main reason I made this was to explore what's possible with the limitedness of gePatcher in it's somewhat primal form. While you can't do much on the surface, you can single-handedly control
