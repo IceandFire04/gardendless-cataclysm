@@ -27,7 +27,7 @@
     },
     {
       "CODENAME": "bloomerang",
-      "OBTAINWORLD": "default"
+      "OBTAINWORLD": "market"
     },
     {
       "CODENAME": "iceburg",
@@ -35,7 +35,7 @@
     },
     {
       "CODENAME": "twinsunflower",
-      "OBTAINWORLD": "default"
+      "OBTAINWORLD": "market"
     },
     {
       "CODENAME": "bonkchoy",
@@ -47,11 +47,11 @@
     },
     {
       "CODENAME": "repeater",
-      "OBTAINWORLD": "kongfu"
+      "OBTAINWORLD": "default"
     },
     {
       "CODENAME": "kernelpult",
-      "OBTAINWORLD": "default"
+      "OBTAINWORLD": "kongfu"
     },
     {
       "CODENAME": "melonpult",
@@ -59,11 +59,11 @@
     },
     {
       "CODENAME": "dandelion",
-      "OBTAINWORLD": "default"
+      "OBTAINWORLD": "kongfu"
     },
     {
       "CODENAME": "snapdragon",
-      "OBTAINWORLD": "kongfu"
+      "OBTAINWORLD": "frontyard"
     },
     {
       "CODENAME": "cherry_bomb",
@@ -75,7 +75,7 @@
     },
     {
       "CODENAME": "springbean",
-      "OBTAINWORLD": "default"
+      "OBTAINWORLD": "frontyard"
     },
     {
       "CODENAME": "coconutcannon",
@@ -83,6 +83,10 @@
     },
     {
       "CODENAME": "threepeater",
+      "OBTAINWORLD": "market"
+    },
+    {
+      "CODENAME": "buttercup",
       "OBTAINWORLD": "market"
     }
   ],
@@ -96,22 +100,22 @@
     "iceburg",
     "gravebuster",
     "bonkchoy",
-    "repeater",
-    "twinsunflower",
     "snowpea",
-    "dandelion",
+    "repeater",
     "pvine",
+    "dandelion",
+    "twinsunflower",
     "kernelpult",
     "snapdragon",
     "spikeweed",
-    "spikerock",
     "springbean",
-    "threepeater",
     "coconutcannon",
+    "threepeater",
+    "buttercup",
+    "spikerock",
     "cherry_bomb",
     "powerlily",
     "escaperoot",
-    "buttercup",
     "splitpea",
     "chilibean",
     "lightningreed",

@@ -464,6 +464,40 @@
         "ImmuneToGarlic": true,
         "ChillInsteadOfFreeze": true
       }
-    }
+    },
+    {
+      "aliases": ["pirate_armor4"],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "ZombieSort": "Normal",
+        "CannotBeTossedByCitron": false,
+        "CannotCarryPlantfoodsInWaves": true,
+        "WalkSPS": 0.2,
+        "EatDPS": 25,
+        "Toughness": 1000,
+        "StartingArmors": ["pirate_armor1", "pirate_armor2", "pirate_armor4"]
+      }
+    },
+		{
+			"aliases": [
+				"pirate_gargantuar"
+			],
+			"objclass": "ZombieProperties",
+			"objdata": {
+				"ZombieSort": "Gargantuar",
+				"CannotChangeLaneByPowerToss": true,
+				"CannotBeFlickedByPowerToss": true,
+				"CannotBeDraggedByTangleKelp": true,
+				"CannotBeTossedByCitron": true,
+				"CannotBeSwallowedByChomper": true,
+				"CannotCarryPlantfoodsInWaves": true,
+				"SmashDamage": 1500,
+				"LivesInDeepWater": true,
+				"WalkSPS": 0.11,
+				"EatDPS": 100,
+				"Toughness": 6400,
+				"NormalDeathWhenMowed": true
+			}
+		}
   ]
 }

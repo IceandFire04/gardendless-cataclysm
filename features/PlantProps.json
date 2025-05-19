@@ -272,6 +272,23 @@
         "Toughness": 300,
         "Family": "None"
       }
+    },
+    {
+      "aliases": ["buttercup"],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "TileButterDuration": 200,
+        "ButterDamage": 200,
+        "TileButterDurationPlantfood": 250,
+        "ButterDamagePlantfood": 300,
+        "ButterDuration": 20,
+        "ButterThrowInterval": 0.5,
+        "Cooldown": 20,
+        "CooldownFrom": 1.5,
+        "SunCost": 100,
+        "Toughness": 900,
+        "Family": "None"
+      }
     }
   ]
 }
