@@ -9,7 +9,7 @@ as I found out Gardendless had modding support, I knew it was going to be good. 
 longer than any other PvZ project I've tried doing. I always knew Gardendless had insane potential, and it looks lik every update it's getting closer to completely fulfilling it.
 
 ## The Future
-I don't know when I'll finish this patch, likely nor will I ever. However, it is clear gePatcher will be supported as an official
+I don't know when I'll finish this patch, and likely I never will. However, it is clear gePatcher will be supported as an official
 modding tool for a while, so my eventual plans include covering **every world** in Gardendless. I'm thinking for expansion levels and extra levels will get you some premium plants, and I'm also thinking
 of a Kongfu and Sky City "world". Those are just my ideas, though.
 
