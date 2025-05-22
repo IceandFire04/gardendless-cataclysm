@@ -5,7 +5,7 @@
     {
       "objclass": "LevelDefinition",
       "objdata": {
-        "StartingSun": 1000,
+        "StartingSun": 50,
         "Description": "{PLAYER}'s Downward Spiral!",
         "FirstRewardType": "unlock_plant",
         "FirstRewardParam": "buttercup",
@@ -257,7 +257,7 @@
         "FlagWaveInterval": 11,
         "WaveCount": 22,
         "SuppressFlagZombie": false,
-        "ZombieCountdownFirstWaveSecs": 60,
+        "ZombieCountdownFirstWaveSecs": 20,
         "Waves": [
           [
             "RTID(Wave1@CurrentLevel)"
@@ -353,7 +353,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 1,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "3",
@@ -387,7 +387,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 1,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "2",
@@ -475,7 +475,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 3,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "1",
@@ -510,7 +510,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 1,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "1",
@@ -651,7 +651,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 3,
+        "AdditionalPlantfood": 1,
         "Zombies": [
           {
             "Row": "1",
@@ -710,7 +710,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 5,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "1",
@@ -852,7 +852,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 2,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "1",
@@ -926,7 +926,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 1,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "1",
@@ -989,7 +989,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 6,
+        "AdditionalPlantfood": 1,
         "Zombies": [
           {
             "Row": "1",
@@ -1139,7 +1139,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 2,
+        "AdditionalPlantfood": 0,
         "Zombies": [
           {
             "Row": "1",
@@ -1226,7 +1226,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 9,
+        "AdditionalPlantfood": 2,
         "Zombies": [
           {
             "Row": "1",
@@ -1453,7 +1453,7 @@
       ],
       "objclass": "SpawnZombiesJitteredWaveActionProps",
       "objdata": {
-        "AdditionalPlantfood": 15,
+        "AdditionalPlantfood": 1,
         "Zombies": [
           {
             "Row": "1",

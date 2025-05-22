@@ -222,13 +222,13 @@
         "Damage": 10,
         "ImmuneToBoomBox": true,
         "AttackInterval": 0.3,
-        "PlantfoodDuration": 10,
+        "PlantfoodDuration": 15,
         "PlantfoodDPS": 400,
         "PlantfoodSideDPS": 40,
         "PlantfoodDragSPS": 3,
-        "Cooldown": 20,
+        "Cooldown": 10,
         "CooldownFrom": 3,
-        "SunCost": 100,
+        "SunCost": 225,
         "Toughness": 300,
         "Family": "None"
       }

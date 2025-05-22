@@ -462,7 +462,8 @@
         "ExplodeImpCountAdditional": 4,
         "IgnoredByThymeWarp": true,
         "ImmuneToGarlic": true,
-        "ChillInsteadOfFreeze": true
+        "ChillInsteadOfFreeze": true,
+	"CannotCarryPlantfoodsInWaves": true
       }
     },
     {
