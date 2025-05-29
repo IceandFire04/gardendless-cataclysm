@@ -88,6 +88,10 @@
     {
       "CODENAME": "buttercup",
       "OBTAINWORLD": "market"
+    },
+    {
+      "CODENAME": "spikerock",
+      "OBTAINWORLD": "kongfu"
     }
   ],
   "SEEDCHOOSERDEFAULTORDER": [
@@ -219,6 +223,7 @@
     "garlic",
     "sporeshroom",
     "intensivecarrot",
+    "phatbeet_rhythm",
     "cactus",
     "electricblueberry",
     "primalpeashooter",

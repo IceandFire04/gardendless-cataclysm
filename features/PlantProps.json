@@ -1,27 +1,45 @@
 {
   "objects": [
     {
-      "aliases": ["peashooter"],
+      "aliases": [
+        "peashooter"
+      ],
       "objclass": "PlantProperties",
-      "objdata": { "Family": "None" }
+      "objdata": {
+        "Family": "None"
+      }
     },
     {
-      "aliases": ["sunflower"],
+      "aliases": [
+        "sunflower"
+      ],
       "objclass": "PlantProperties",
-      "objdata": { "Family": "None" }
+      "objdata": {
+        "Family": "None"
+      }
     },
     {
-      "aliases": ["wallnut"],
+      "aliases": [
+        "wallnut"
+      ],
       "objclass": "PlantProperties",
-      "objdata": { "Family": "None" }
+      "objdata": {
+        "Family": "None"
+      }
     },
     {
-      "aliases": ["potatomine"],
+      "aliases": [
+        "potatomine"
+      ],
       "objclass": "PlantProperties",
-      "objdata": { "Family": "None" }
+      "objdata": {
+        "Family": "None"
+      }
     },
     {
-      "aliases": ["cabbagepult"],
+      "aliases": [
+        "cabbagepult"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "ThrowInterval": 1.5,
@@ -34,7 +52,9 @@
       }
     },
     {
-      "aliases": ["bloomerang"],
+      "aliases": [
+        "bloomerang"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "ShootInterval": 1.5,
@@ -49,7 +69,9 @@
       }
     },
     {
-      "aliases": ["iceburg"],
+      "aliases": [
+        "iceburg"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "FreezeDuration": 2,
@@ -63,7 +85,9 @@
       }
     },
     {
-      "aliases": ["gravebuster"],
+      "aliases": [
+        "gravebuster"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "CannotBeSheepenedByWizard": true,
@@ -78,7 +102,9 @@
       }
     },
     {
-      "aliases": ["twinsunflower"],
+      "aliases": [
+        "twinsunflower"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "PlantfoodTime": 6,
@@ -95,7 +121,9 @@
       }
     },
     {
-      "aliases": ["bonkchoy"],
+      "aliases": [
+        "bonkchoy"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "Damage": 20,
@@ -113,7 +141,9 @@
       }
     },
     {
-      "aliases": ["snowpea"],
+      "aliases": [
+        "snowpea"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "ShootInterval": 7,
@@ -129,7 +159,9 @@
       }
     },
     {
-      "aliases": ["repeater"],
+      "aliases": [
+        "repeater"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "ShootInterval": 1.2,
@@ -143,7 +175,9 @@
       }
     },
     {
-      "aliases": ["kernelpult"],
+      "aliases": [
+        "kernelpult"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "ThrowInterval": 1.5,
@@ -157,7 +191,9 @@
       }
     },
     {
-      "aliases": ["melonpult"],
+      "aliases": [
+        "melonpult"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "ThrowInterval": 1.6,
@@ -170,7 +206,9 @@
       }
     },
     {
-      "aliases": ["dandelion"],
+      "aliases": [
+        "dandelion"
+      ],
       "objectclass": "PlantProperties",
       "objdata": {
         "ShootInterval": 1.3,
@@ -185,7 +223,9 @@
       }
     },
     {
-      "aliases": ["snapdragon"],
+      "aliases": [
+        "snapdragon"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "AttackInterval": 1.2,
@@ -201,7 +241,9 @@
       }
     },
     {
-      "aliases": ["cherry_bomb"],
+      "aliases": [
+        "cherry_bomb"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "CannotBeSheepenedByWizard": true,
@@ -216,7 +258,9 @@
       }
     },
     {
-      "aliases": ["spikeweed"],
+      "aliases": [
+        "spikeweed"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "Damage": 10,
@@ -234,7 +278,9 @@
       }
     },
     {
-      "aliases": ["springbean"],
+      "aliases": [
+        "springbean"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "KnockbackDistance": 3,
@@ -247,7 +293,9 @@
       }
     },
     {
-      "aliases": ["coconutcannon"],
+      "aliases": [
+        "coconutcannon"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "RestTime": 6,
@@ -260,7 +308,9 @@
       }
     },
     {
-      "aliases": ["threepeater"],
+      "aliases": [
+        "threepeater"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "ShootInterval": 0.9,
@@ -274,7 +324,9 @@
       }
     },
     {
-      "aliases": ["buttercup"],
+      "aliases": [
+        "buttercup"
+      ],
       "objclass": "PlantProperties",
       "objdata": {
         "TileButterDuration": 200,
@@ -285,6 +337,27 @@
         "ButterThrowInterval": 0.5,
         "Cooldown": 20,
         "CooldownFrom": 1.5,
+        "SunCost": 100,
+        "Toughness": 900,
+        "Family": "None"
+      }
+    },
+    {
+      "aliases": [
+        "spikerock"
+      ],
+      "objclass": "PlantProperties",
+      "objdata": {
+        "ImmuneToBoomBox": true,
+        "Damage": 20,
+        "AttackInterval": 1.5,
+        "PlantfoodDuration": 5,
+        "PlantfoodDPS": 800,
+        "PlantfoodSideDPS": 60,
+        "PlantfoodDragSPS": 10,
+        "MaxSpike": 2,
+        "Cooldown": 10,
+        "CooldownFrom": 0.5,
         "SunCost": 100,
         "Toughness": 900,
         "Family": "None"

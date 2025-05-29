@@ -2274,7 +2274,7 @@
 					"zh": "作为最具金属性的植物，钢地刺打算在麦迪生石头花园举办他的终极重金属音乐节。票已经售罄了好几个丰收季了。"
 				},
 				"BriefIntroduction": {
-					"en": "Breaks 3 rolling object, hurts zombies that step on it",
+					"en": "UV Change: PF drags faster but can only break 2 barrels and does no damage",
 					"zh": "对走过的僵尸造成伤害，并破坏 3 个滚动的物体"
 				},
 				"DisplayOffset": {
