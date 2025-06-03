@@ -448,7 +448,7 @@
         "CannotBeSwallowedByChomper": true,
         "WalkSPS": 0.185,
         "EatDPS": 100,
-        "Toughness": 1000,
+        "Toughness": 750,
         "NormalDeathWhenMowed": true,
         "TimeBefore": 1,
         "TimeBeforeAdditional": 1,
@@ -463,7 +463,7 @@
         "IgnoredByThymeWarp": true,
         "ImmuneToGarlic": true,
         "ChillInsteadOfFreeze": true,
-	"CannotCarryPlantfoodsInWaves": true
+	      "CannotCarryPlantfoodsInWaves": true
       }
     },
     {
