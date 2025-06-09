@@ -47,7 +47,7 @@
 					"zh": "双胞向日葵那副超级时尚又无比昂贵的墨镜让她不论在哪都像个大明星。因此她不论去到哪里都会被“枸籽队”簇拥。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: PF is longer and produces 150 sun",
+					"en": "Cataclysm Change: PF is longer and produces 150 sun",
 					"zh": "生产比向日葵更多的阳光"
 				},
 				"DisplayOffset": {
@@ -441,7 +441,7 @@
 					"zh": "三线射手喜欢在电子游戏中玩多人模式，但是就算分成三个屏幕也没有用，左边那个家伙总喜欢作弊偷看。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Shoots faster, PF shoots more peas",
+					"en": "Cataclysm Change: Shoots faster, PF shoots more peas",
 					"zh": "向三行发射豌豆"
 				},
 				"DisplayOffset": {
@@ -725,7 +725,7 @@
 					"zh": "他可能看上去凶巴巴坏脾气，但是噬碑藤只是想要给你一个大大的拥抱。除非你是一只小狗，他很害怕小狗！"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Takes much longer but has more health",
+					"en": "Cataclysm Change: Takes much longer but has more health",
 					"zh": "种植在墓碑上并移除这块墓碑"
 				},
 				"DisplayOffset": {
@@ -966,7 +966,7 @@
 					"zh": "“大家见到我总是问我们是不是见过，”双重射手说，“大家见到我总是问我们是不是见过。等等，这句话是不是说了两遍？”"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Shoots quicker, super-buffed PF",
+					"en": "Cataclysm Change: Shoots quicker, super-buffed PF",
 					"zh": "向敌人发射两颗豌豆"
 				},
 				"DisplayOffset": {
@@ -1024,7 +1024,7 @@
 					"zh": "菜问还是一位兼职牙医，这个月他还端上了一道“特色菜”————你能用拔掉一颗牙齿的价钱，让他给你敲掉两颗牙！"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Slower, longer PF, extra range, more health",
+					"en": "Cataclysm Change: Slower, longer PF, extra range, more health",
 					"zh": "快速击打身前或身后的敌人"
 				},
 				"DisplayOffset": {
@@ -1085,7 +1085,7 @@
 					"zh": "不要因为盯着他过分可爱的双眼而迷失自我。不然的话你将没法迈出下一步……除非你不是一只僵尸。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Chills instead of freezing",
+					"en": "Cataclysm Change: Chills instead of freezing",
 					"zh": "冻结接触到的僵尸，并熄灭火炬"
 				},
 				"DisplayOffset": {
@@ -1132,7 +1132,7 @@
 					"zh": "由于他是植物队列里的第一位稀客，回旋镖射手非常享受与他的朋友考拉散步，并在回来的时候听鲍勃·大麦的专辑。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Can pierce 6 times and shoots much faster",
+					"en": "Cataclysm Change: Can pierce 6 times and shoots much faster",
 					"zh": "击打本行的三个目标，各两次"
 				},
 				"DisplayOffset": {
@@ -1186,7 +1186,7 @@
 					"zh": "卷心菜投手在哈丰大学的投掷专业获取了博士学位。他在投掷方面可谓登峰造极。他也懂得做出美味的热汤！"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Shoots faster than normal",
+					"en": "Cataclysm Change: Shoots faster than normal",
 					"zh": "向僵尸投掷能跨越障碍物的卷心菜"
 				},
 				"DisplayOffset": {
@@ -1614,7 +1614,7 @@
 					"zh": "作为专业的乒乓球运动员，休赛期间他还会去滑翔，打手鼓，甚至是探洞穴。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: 100% freeze chance, slower shooting speed",
+					"en": "Cataclysm Change: 100% freeze chance, slower shooting speed",
 					"zh": "向僵尸发射寒冰子弹"
 				},
 				"DisplayOffset": {
@@ -1743,7 +1743,7 @@
 					"zh": "在电影院当招待员时，他看了《油炸绿西红柿》并找到了更长远的目标。于是他把他的玉米壳、玉米粒、黄油打包起来后参与了战斗。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Lower butter chance, shoots faster",
+					"en": "Cataclysm Change: Lower butter chance, shoots faster",
 					"zh": "向僵尸投掷黄油和玉米粒"
 				},
 				"DisplayOffset": {
@@ -1869,7 +1869,7 @@
 					"zh": "他人狠话不多，而且很神秘。大家也只知道：他的粉丝体量高达百万，更是受到女孩子们的欢迎。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: KB is increased, resting time is decreased",
+					"en": "Cataclysm Change: KB is increased, resting time is decreased",
 					"zh": "将僵尸向右侧弹开，或弹进周围的水里"
 				},
 				"DisplayOffset": {
@@ -2206,7 +2206,7 @@
 					"zh": "尽管地刺在村里的播种地长大，他的针灸事业也在蓬勃发展。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Attacks faster, PF is lethal",
+					"en": "Cataclysm Change: Attacks faster, PF is lethal",
 					"zh": "对走过的僵尸造成伤害，并破坏 1 个滚动的物体"
 				},
 				"DisplayOffset": {
@@ -2274,7 +2274,7 @@
 					"zh": "作为最具金属性的植物，钢地刺打算在麦迪生石头花园举办他的终极重金属音乐节。票已经售罄了好几个丰收季了。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: PF drags faster but can only break 2 barrels and does no damage",
+					"en": "Cataclysm Change: PF drags faster but can only break 2 barrels and does no damage",
 					"zh": "对走过的僵尸造成伤害，并破坏 3 个滚动的物体"
 				},
 				"DisplayOffset": {
@@ -2533,7 +2533,7 @@
 					"zh": "黄油毛茛非常甜美，但是她也会发脾气！“我才不是便宜货，”她指着自己25阳光的平庸价格说道，“这个价格合情合理。”"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Butter lasts longer, shoots faster and does more damage plus more health",
+					"en": "Cataclysm Change: Butter lasts longer, shoots faster and does more damage plus more health",
 					"zh": "向啃食她的僵尸投掷黄油"
 				},
 				"DisplayOffset": {
@@ -2751,7 +2751,7 @@
 					"zh": "樱桃炸弹兄弟尝试过建立他们自己的乐队。“我们尽力去搞清楚应该发出什么样的音色，但是我们一直炸坏音响，炸烂舞台，炸跑粉丝，当然也炸死了僵尸。希望明年还能找到我们的合伙人。”"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: significantly shorter cooldown",
+					"en": "Cataclysm Change: significantly shorter cooldown",
 					"zh": "爆炸并对范围内僵尸造成伤害"
 				},
 				"DisplayOffset": {
@@ -3502,7 +3502,7 @@
 					"zh": "当然他已经是个长发老人，但是椰子加农炮仍然能用各种枪管发射。他之所以这么多毛发，是因为他还在接受蜜蜡除毛服务。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Shorter resting time",
+					"en": "Cataclysm Change: Shorter resting time",
 					"zh": "点击发射一颗爆炸性椰子炮弹"
 				},
 				"DisplayOffset": {
@@ -3618,7 +3618,7 @@
 					"zh": "就算他是植物王国里最强大的一条龙，他仍然希望有一对翅膀，俯瞰整个世界。"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Shoots faster, more damage, PF does more damage, more health",
+					"en": "Cataclysm Change: Shoots faster, more damage, PF does more damage, more health",
 					"zh": "向身前区域吐息"
 				},
 				"DisplayOffset": {
@@ -4809,7 +4809,7 @@
 					"zh": "“看，”蒲公英摇摇头说，“我才不是什么小妖精或者小精灵。要是想的话，你还可以把我的种子都吹飞，但是我就是不能实现你的愿望。我也不知道这些传闻是谁发起的。”"
 				},
 				"BriefIntroduction": {
-					"en": "UV Change: Shoots faster, takes longer to recover when blown but shoots more projectiles",
+					"en": "Cataclysm Change: Shoots faster, takes longer to recover when blown but shoots more projectiles",
 					"zh": "攻击邻近行的僵尸"
 				},
 				"DisplayOffset": {
