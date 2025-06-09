@@ -1,4 +1,4 @@
-# ![IceandFire's Ultra Violence](https://raw.githubusercontent.com/IceandFire04/gardendless-ultra-violence/refs/heads/main/header.png)
+# ![IceandFire's Cataclysm](https://raw.githubusercontent.com/IceandFire04/gardendless-ultra-violence/refs/heads/main/header.png)
 
 A patch for [PvZ2: Gardendless](https://pvzge.com/en/) that aims to make the game harder and make every plant and zombie distinct. Currently supports Gardendless **0.3.X**.
 
