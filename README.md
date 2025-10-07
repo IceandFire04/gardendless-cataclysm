@@ -1,6 +1,9 @@
 # ![IceandFire's Cataclysm](https://raw.githubusercontent.com/IceandFire04/gardendless-cataclysm/refs/heads/main/header.png)
 
-A patch for [PvZ2: Gardendless](https://pvzge.com/en/) that aims to make the game harder and make every plant and zombie distinct. Currently supports Gardendless **0.3.X**.
+A patch for [PvZ2: Gardendless](https://pvzge.com/en/) that aims to make the game harder and make every plant and zombie distinct. Currently supports Gardendless **0.5.X**.
+
+> [!WARNING]
+> This patch is _very_ outdated. It's likely I'll come back to this in the future since Gardendless modding is significantly more advanced than it was when I first made this. I also just know more about the Gardendless exclusive features too.
 
 ## Why did I make this?
 The main reason I made this was to explore what's possible with the limitedness of gePatcher in it's somewhat primal form. While you can't do much on the surface, you can single-handedly control
